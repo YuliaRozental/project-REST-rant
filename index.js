@@ -2,7 +2,7 @@
 require('dotenv').config();
 const express = require('express');
 const methodOverride = require('method-override');
-const app = express()
+const app = express();
 
 // Express Settings
 app.set('view engine', 'jsx')
